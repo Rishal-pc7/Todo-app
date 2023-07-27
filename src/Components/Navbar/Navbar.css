@@ -1,0 +1,33 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: #fafafa;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 25px;
+}
+.navbar ul li{
+    font-size: 20px;
+    position: relative;
+}
+.navbar ul li .current{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ffcc00;
+  position: absolute;
+  top: -5px;
+  right: -7px;
+}
+.navbar .active{
+    padding-bottom: .5em;
+    border-bottom: 2px solid #64b5f6;
+    color: #64b5f6;
+}
